@@ -8,7 +8,6 @@ module.exports = {
   components: './src/components',
   outputPath: './dist/playroom',
 
-  // Optional:
   title: 'Oblivion Playroom',
   frameComponent: './playroom/Frame.js',
   widths: [320, 768, 1024],
@@ -38,7 +37,7 @@ module.exports = {
           test: /\.css$/i,
           include: path.resolve(__dirname, './src/styles'),
           exclude: /node_modules/,
-          use: [require.resolve('style-loader'), require.resolve('css-loader')],
+          use: ['style-loader', 'css-loader'],
         },
       ],
     },
