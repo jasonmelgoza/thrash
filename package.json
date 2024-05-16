@@ -1,0 +1,8 @@
+{
+  "name": "oblivion",
+  "version": "0.0.1",
+  "description": "React components for building",
+  "main": "index.js",
+  "author": "Jason Melgoza",
+  "license": "MIT"
+}
