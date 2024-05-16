@@ -4,5 +4,16 @@
   "description": "React components for building",
   "main": "index.js",
   "author": "Jason Melgoza",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "playroom": "^0.37.1"
+  },
+  "scripts": {
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
