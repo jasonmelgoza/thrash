@@ -5,9 +5,5 @@ import '../src/styles/reset.css'
 import '../src/styles/theme.css'
 
 export default function Frame({ children }) {
-  return (
-    <Theme>
-      {children}
-    </Theme>
-  )
+  return <Theme accentColor="violet" radius="small" scaling="95%">{children}</Theme>
 }
