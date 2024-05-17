@@ -17,6 +17,7 @@
     "playroom:build": "playroom build"
   },
   "dependencies": {
+    "@radix-ui/themes": "^3.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }

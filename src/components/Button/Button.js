@@ -1,5 +1,6 @@
 import React from 'react'
+import { Button as StyledButton } from '@radix-ui/themes'
 
 export default function Button({ children }) {
-  return <button className="ui button">{children}</button>
+  return <StyledButton>{children}</StyledButton>
 }

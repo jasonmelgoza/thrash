@@ -8,7 +8,7 @@ module.exports = {
   components: './src/components',
   outputPath: './dist/playroom',
 
-  title: 'Oblivion Playroom',
+  title: 'Thrash Playroom',
   frameComponent: './playroom/Frame.js',
   widths: [320, 768, 1024],
   port: 9000,
@@ -35,8 +35,7 @@ module.exports = {
         },
         {
           test: /\.css$/i,
-          include: path.resolve(__dirname, './src/styles'),
-          exclude: /node_modules/,
+          exclude: /node_modules\/(?!(@radix-ui)\/).*/,
           use: ['style-loader', 'css-loader'],
         },
       ],
