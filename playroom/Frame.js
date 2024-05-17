@@ -1,7 +1,13 @@
 import React from 'react'
 import { Theme } from '@radix-ui/themes'
-import '@radix-ui/themes/styles.css'
+
+import '../src/styles/reset.css'
+import '../src/styles/theme.css'
 
 export default function Frame({ children }) {
-  return <Theme>{children}</Theme>
+  return (
+    <Theme>
+      {children}
+    </Theme>
+  )
 }
