@@ -18,7 +18,7 @@ module.exports = {
       Hello World!
     </Button>
   `,
-  baseUrl: '/playroom/',
+  baseUrl: '/',
   webpackConfig: () => ({
     module: {
       rules: [
